@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.div1{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	opacity: 0.5;
+	position: fixed;
+	z-index: 999;
+}
+.div1 h4{
+	color: white;
+	    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+        padding-left: 100px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.div1 p{
+	font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+        padding-top: 25px;
+    padding-right: 100px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.div1 p:hover{
+	color: white;
+	opacity: 0.7;
+}
+.div2{
+	width: 100%;
+	height: 680px;
+	background-image: url(../img/pexel.jpeg);
+}
+.div2 h1{
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	    font-family: Catamaran;
+    font-weight: 800;
+    font-size: 100px;
+}
+.div2 h2{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	    font-family: Catamaran;
+    font-weight: 800;
+    font-size: 60px;
+}
+.div3 button{
+	width: 200px;
+	height: 80px;
+	border-radius: 30px;
+	    background-color: #ee0979;
+    border-color: #ee0979;
+    color: white;
+        font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+.div3{
+	width: 10%;
+	margin: auto;
+	padding-top: 40px;
+}
+.col h1{
+	padding-top: 150px;
+	    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+        font-family: Catamaran;
+}
+.col p{
+	    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.div4{
+	padding-top: 100px;
+	padding-left: 50px;
+}
+.img1{
+	width: 400px;
+	border-radius: 50%;
+}
+.div5{
+	width: 100%;
+	height: 120px;
+	background-color: black;
+	margin-top: 50px;
+}
+.div5 p{
+	color: white;
+	text-align: center;
+	    font-family: Lato;
+	    padding-top: 50px;
+}
